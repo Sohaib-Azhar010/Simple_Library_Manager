@@ -46,7 +46,7 @@ nav ul li {
   align-items: center;
   background-color: #002d62;
   width: 40%;
-  margin-top: 5%;
+  margin-top: 15%;
   border-radius: 20px;
   color: white;
   border: 2px solid white;
@@ -80,7 +80,7 @@ nav ul li {
   display: flexbox;
   justify-content: center;
   text-align: center;
-  margin-top: 5%;
+  margin-top: 25%;
   background-color: #002d62;
   padding-top: 10px;
   color: white;
