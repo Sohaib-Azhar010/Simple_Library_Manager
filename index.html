@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Library</title>
+    <link rel="shortcut icon" href="Imgs/pngegg.png" type="image/x-icon" />
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style1.css" />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li class="brand">
+          <img src="Imgs/pngegg.png" alt="navlogo" />My Library
+        </li>
+        <li id="hv">Home</li>
+        <li id="hv">About</li>
+      </ul>
+    </nav>
+
+    <center>
+      <div class="cal">
+        <h2>Add Book</h2>
+        <hr />
+        <input type="text" id="bookTitle" placeholder="Book Title" /><br />
+        <input type="text" id="author" placeholder="Author" /><br />
+        <button class="add" onclick="addBook()">Add Book</button>
+      </div>
+    </center>
+    
+    </div>
+
+    <center> <div class="sort">
+      <h2>Sort Books</h2>
+      <select id="sortOption">
+        <option value="title">Sort by Title</option>
+        <option value="author">Sort by Author</option>
+      </select>
+      <button onclick="sortBooks()">Sort</button>
+    </div>
+  </center>
+   
+
+  
+
+  <center>
+    <div class="list">
+
+      <h2>Books List</h2>
+    
+      <center>
+        <table border="1" id="bookTable">
+          <tr>
+            <th>Title</th>
+            <th>Author</th>
+            <th>Action</th>
+          </tr>
+        </table>
+      </center>
+    
+  </div>
+  </center>
+    
+
+    <footer>
+      <p>@2023 Created By Sohaib Azhar | All rights reserved</p>
+    </footer>
+  </body>
+</html>
